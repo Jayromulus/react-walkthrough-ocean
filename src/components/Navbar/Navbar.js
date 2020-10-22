@@ -9,7 +9,7 @@ const Navbar = (props) => {
     <div>
       <nav>
         <img id="pizzaPic" src={pizzaPic} alt="pizza" />
-        <Logout />
+        <Logout setSessionToken={props.setSessionToken} />
       </nav>
     </div>
   );
